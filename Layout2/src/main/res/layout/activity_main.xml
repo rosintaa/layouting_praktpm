@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc"
+    android:padding="30dp">
+    <TextView
+        android:id="@+id/bubur"
+        android:layout_width="116dp"
+        android:layout_height="288dp"
+        android:text="When Pamungkas said, kalau makan mungkin ga bisa sampai ke tulang, tapi kalau sama kamu mau sampai ke tulang-tulangnya"
+        android:textColor="@color/black"
+        android:fontFamily="serif-monospace"
+        android:textStyle="italic" />
+    <ImageView
+        android:layout_width="211dp"
+        android:layout_height="310dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="0dp"
+        android:src="@drawable/gambar1" />
+    <TextView
+        android:id="@+id/pamungkas"
+        android:layout_width="89dp"
+        android:layout_height="277dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="37dp"
+        android:layout_marginBottom="62dp"
+        android:text="I want you to the bone
+I want you to-
+Take me home, I'm fallin'
+Love me long, I'm rollin'
+Losing control, body and soul
+Mind too for sure, I'm already yours
+Walk you down, I'm all in
+Hold you tight, you call and
+I'll take control your body and soul
+Mind too for sure, I'm already yours
+Would that be alright?
+Hey, would that be alright?"
+        android:fontFamily="cursive"
+        android:textStyle="italic" />
+    <ImageView
+        android:layout_width="196dp"
+        android:layout_height="278dp"
+        android:layout_alignTop="@+id/pamungkas"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/gambar2" />
+</RelativeLayout>
